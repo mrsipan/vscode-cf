@@ -1,0 +1,255 @@
+{
+    "editor.fontSize": 15,
+    "debug.console.fontSize": 11,
+    "editor.fontFamily": "JuliaMono, 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+    "telemetry.enableCrashReporter": false,
+    "terminal.integrated.copyOnSelection": true,
+    "vim.useSystemClipboard": true,
+    "workbench.preferredLightColorTheme": "Spacemacs - light",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.preferredDarkColorTheme": "Spacemacs - dark",
+    "java.project.importHint": false,
+    "jupyter.alwaysTrustNotebooks": true,
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "restructuredtext.experimental": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.history": 100,
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindings": [
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+
+        {
+            "before":  ["<leader>", "f", "w"],
+            "commands": [":w"]
+        },
+        {
+            "before":  ["g", "R"],
+            "commands": [":e!"]
+        },
+        {
+            "before": ["<Enter>"],
+            "after": ["<C-d>"]
+        },
+        {
+            "before": ["<Backspace>"],
+            "after": ["<C-u>"]
+        }
+    ],
+    "vim.smartRelativeLine": true,
+    "[python]": {
+
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ]
+    },
+    "editor.insertSpaces": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "restructuredtext.conflictingExtensions": [
+
+        "tht13.rst-vscode"
+    ],
+    "editor.tokenColorCustomizations": {
+        // "[Spacemacs - light]": {
+        //     "comments": "#FF0000",
+        //     "keywords": "#FF0000"
+        // },
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#718254"
+                }
+            },
+            {
+                "name": "Doc string",
+                "scope": [
+                    "string.quoted.docstring.multi.python"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#0c5658"
+                }
+            },
+            {
+                "name": "Class names",
+                "scope": [
+                    "entity.name.class",
+                    "entity.name.type"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#480286e6"
+                }
+            },
+            {
+                "name": "Storage",
+                "scope": [
+                    "storage"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#4b53be"
+                }
+            },
+            {
+                "name": "Storage types",
+                "scope": [
+                    "storage.type"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#0586d0"
+                }
+            },
+            {
+                "name": "Library classes/types",
+                "scope": [
+                    "support.type",
+                    "support.class"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#784d78"
+                }
+            },
+            {
+                "name": "Library constants",
+                "scope": [
+                    "support.constant"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#3965a7"
+                }
+            },
+            {
+                "name": "Inherited class",
+                "scope": [
+                    "entity.other.inherited-class"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#6802ac"
+                }
+            },
+            {
+                "name": "Library functions",
+                "scope": [
+                    "support.function"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#255d77"
+                }
+            },
+            {
+                "name": "Function call",
+                "scope": [
+                    "meta.function-call.generic.python"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#764222"
+                }
+            },
+            {
+                "name": "Number",
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#cf5305"
+                }
+            },
+            {
+                "name": "Function arguments",
+                "scope": [
+                    "variable.parameter.function"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#595691"
+                }
+            },
+            {
+                "name": "String",
+                "scope": [
+                    "string.quoted.double.single-line.python"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#920f72"
+                }
+            },
+            {
+                "name": "Function keyword",
+                "scope": [
+                    "storage.type.function.python"
+                ],
+
+                "settings": {
+                    "foreground": "#0075c4",
+                    "fontStyle": "normal"
+                }
+            }
+        ]
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "vs-seti",
+    "redhat.telemetry.enabled": false,
+    "editor.renderWhitespace": "trailing",
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.colorTheme": "Spacemacs - light",
+    "git.path": "/usr/local/bin/git",
+    "git.autofetch": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+        "[Spacemacs - light]": {
+            "editor.foreground": "#412c2d"
+        },
+        "editorBracketHighlight.foreground1": "#B48EAD",
+        "editorBracketHighlight.foreground2": "#A3BE8C",
+        "editorBracketHighlight.foreground3": "#8a5a44",
+        "editorBracketHighlight.foreground4": "#D08770",
+        "editorBracketHighlight.foreground5": "#BF616A",
+        "editorBracketHighlight.foreground6": "#abb2c0",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+    },
+    "python.defaultInterpreterPath": "/Users/bsan0009/opt/python310/bin/python3.10",
+    "editor.codeActionsOnSave": {
+
+    },
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "editor.fontLigatures": false
+}
