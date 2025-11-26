@@ -1,48 +1,62 @@
 {
     "editor.fontSize": 15,
     "debug.console.fontSize": 11,
-    "editor.fontFamily": "JuliaMono, 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
-    "telemetry.enableCrashReporter": false,
+    "editor.fontFamily": "JuliaMonoSiesta, 'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
+    // "telemetry.enableCrashReporter": false,
     "terminal.integrated.copyOnSelection": true,
     "vim.useSystemClipboard": true,
     "workbench.preferredLightColorTheme": "Spacemacs - light",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.preferredDarkColorTheme": "Spacemacs - dark",
     "java.project.importHint": false,
     "jupyter.alwaysTrustNotebooks": true,
     "settingsSync.ignoredSettings": [
         "-python.defaultInterpreterPath"
     ],
-    "restructuredtext.experimental": true,
     "vim.camelCaseMotion.enable": true,
     "vim.cursorStylePerMode.normal": "block",
     "vim.history": 100,
     "vim.leader": "<Space>",
-    "vim.normalModeKeyBindings": [
-    ],
+    "vim.normalModeKeyBindings": [],
     "vim.normalModeKeyBindingsNonRecursive": [
-
         {
-            "before":  ["<leader>", "f", "w"],
-            "commands": [":w"]
+            "before": [
+                "<leader>",
+                "f",
+                "w"
+            ],
+            "commands": [
+                ":w"
+            ]
         },
         {
-            "before":  ["g", "R"],
-            "commands": [":e!"]
+            "before": [
+                "g",
+                "R"
+            ],
+            "commands": [
+                ":e!"
+            ]
         },
         {
-            "before": ["<Enter>"],
-            "after": ["<C-d>"]
+            "before": [
+                "<Enter>"
+            ],
+            "after": [
+                "<C-d>"
+            ]
         },
         {
-            "before": ["<Backspace>"],
-            "after": ["<C-u>"]
+            "before": [
+                "<Backspace>"
+            ],
+            "after": [
+                "<C-u>"
+            ]
         }
     ],
     "vim.smartRelativeLine": true,
     "[python]": {
-
         "gitlens.codeLens.symbolScopes": [
             "!Module"
         ]
@@ -50,14 +64,9 @@
     "editor.insertSpaces": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "restructuredtext.conflictingExtensions": [
-
         "tht13.rst-vscode"
     ],
     "editor.tokenColorCustomizations": {
-        // "[Spacemacs - light]": {
-        //     "comments": "#FF0000",
-        //     "keywords": "#FF0000"
-        // },
         "textMateRules": [
             {
                 "name": "Comment",
@@ -65,7 +74,7 @@
                     "comment"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#718254"
                 }
             },
@@ -75,7 +84,7 @@
                     "string.quoted.docstring.multi.python"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#0c5658"
                 }
             },
@@ -86,7 +95,7 @@
                     "entity.name.type"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#480286e6"
                 }
             },
@@ -96,7 +105,7 @@
                     "storage"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#4b53be"
                 }
             },
@@ -106,7 +115,7 @@
                     "storage.type"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#0586d0"
                 }
             },
@@ -117,7 +126,7 @@
                     "support.class"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#784d78"
                 }
             },
@@ -127,7 +136,7 @@
                     "support.constant"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#3965a7"
                 }
             },
@@ -137,7 +146,7 @@
                     "entity.other.inherited-class"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#6802ac"
                 }
             },
@@ -147,7 +156,7 @@
                     "support.function"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#255d77"
                 }
             },
@@ -157,7 +166,7 @@
                     "meta.function-call.generic.python"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#764222"
                 }
             },
@@ -167,7 +176,7 @@
                     "constant.numeric"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#cf5305"
                 }
             },
@@ -177,7 +186,7 @@
                     "variable.parameter.function"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#595691"
                 }
             },
@@ -187,7 +196,7 @@
                     "string.quoted.double.single-line.python"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
+                    "fontStyle": "",
                     "foreground": "#920f72"
                 }
             },
@@ -196,10 +205,9 @@
                 "scope": [
                     "storage.type.function.python"
                 ],
-
                 "settings": {
                     "foreground": "#0075c4",
-                    "fontStyle": "normal"
+                    "fontStyle": ""
                 }
             }
         ]
@@ -223,7 +231,6 @@
         "**/.factorypath": true
     },
     "workbench.colorTheme": "Spacemacs - light",
-    "git.path": "/usr/local/bin/git",
     "git.autofetch": true,
     "notebook.cellToolbarLocation": {
         "default": "right",
@@ -232,7 +239,7 @@
     "editor.bracketPairColorization.enabled": true,
     "workbench.colorCustomizations": {
         "[Spacemacs - light]": {
-            "editor.foreground": "#412c2d"
+            "editor.foreground": "#321f28"
         },
         "editorBracketHighlight.foreground1": "#B48EAD",
         "editorBracketHighlight.foreground2": "#A3BE8C",
@@ -242,14 +249,41 @@
         "editorBracketHighlight.foreground6": "#abb2c0",
         "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
     },
-    "python.defaultInterpreterPath": "/Users/bsan0009/opt/python310/bin/python3.10",
-    "editor.codeActionsOnSave": {
-
-    },
+    "editor.codeActionsOnSave": {},
     "files.watcherExclude": {
         "**/.bloop": true,
         "**/.metals": true,
         "**/.ammonite": true
     },
-    "editor.fontLigatures": false
+    "editor.fontLigatures": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "calva.fmt.newIndentEngine": false,
+    "calva.autoEvaluateCode": {
+        "onConnect": {
+            "clj": "(when-let [requires (resolve 'clojure.main/repl-requires)] (clojure.core/apply clojure.core/require @requires))",
+            "cljs": "(require '[cljs.repl :refer [apropos dir doc find-doc print-doc pst source]])"
+        },
+        "onFileLoaded": {
+            "clj": null,
+            "cljs": null
+        }
+    },
+    "files.associations": {
+        "*.org": "org"
+    },
+    "org.todoKeywords": [
+        "TODO",
+        "DONE",
+        "HOLD",
+        "SCHD",
+    ],
+    "yaml.schemas": {
+        "file:///Users/e140583/.vscode/extensions/continue.continue-1.2.11-darwin-arm64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "continue.enableTabAutocomplete": false,
+    "continue.telemetryEnabled": false,
+    "copyOnSelect.copyOnKeyboardSelection": true,
+    "editor.formatOnSave": true,
 }
